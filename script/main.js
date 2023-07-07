@@ -7,7 +7,7 @@ function scrollTop(){
     })
 }
 window.onscroll = function(){
-    if(window.pageYOffset > 1000){
+    if(window.pageYOffset > 600){
         button.style.display = "flex";
     }
     else{
